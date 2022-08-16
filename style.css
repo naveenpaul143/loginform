@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@500&family=Libre+Caslon+Display&family=Philosopher&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.form-container{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url("bg-2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.form-container form{
+    width: 300px;
+    height: 450px;
+    background:rgba(255,255,255,0.1);
+    border-radius: 32px;
+    padding:10px;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.1);
+    text-align: center;
+    border:1px solid rgba(255, 255, 255, 0.573);
+}
+.form-container form h3{
+    padding:0 5px;
+    color:rgb(0, 0, 0);
+    font-size:30px;
+    margin-top:30px;
+    font-family:Special Elite;
+}
+.form-container form i{
+    background:linear-gradient(90deg,rgb(116, 0, 224),deeppink);
+    color:white;
+    font-size:15px;
+    padding: 5px;
+    border-radius: 6px;
+}
+.form-container form input[type=email],[type=password]{
+    width:86%;
+    height:40px;
+    border:none;
+    outline:none;
+    border-bottom:2px solid rgba(243, 0, 182, 0.299);
+    background:transparent;
+    padding:0 10px;
+    margin: 20px 0;
+    
+}
+.form-container form input[type=submit]{
+    color:white;
+    width:90%;
+    padding:10px;
+    outline:none;
+    border:none;
+    border-radius:10px;
+    background:linear-gradient(135deg,rgb(252, 1, 135),rgb(157, 68, 241));
+}
+.form-container form input[type=submit]:hover{
+    letter-spacing: 4px;
+    cursor: pointer;
+ 
+}
+::placeholder{
+    color:rgb(253, 242, 242);
+    opacity: 1;
+    font-family:sans-serif;
+}
